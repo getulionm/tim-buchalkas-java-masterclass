@@ -1,0 +1,17 @@
+Difference between abstract classes and interfaces:
+
+- Abstract class can have member variables that are inherited
+    - Can't be done for interface
+
+- Interfaces can have variables that are all public static final (constant values [never change] with static scope)
+    - Non-static variables require instances, Interfaces cannot be instantiated
+
+- Interfaces cannot have constructors
+    - Abstract classes can
+
+- All methods of an Interface are public abstract
+    - methods of an Abstract class can have any visibility and can have implementation
+
+- Abstract classes can have defined methods (with an implementation)
+    - All methods in an Interface are abstract (code has to be written in the class that implements the interface)
+

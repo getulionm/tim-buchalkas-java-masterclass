@@ -1,0 +1,16 @@
+Introduction to exceptions:
+
+"Exception is an event which occurs during the execution of a program that disrupts the normal flow of the program's instructions"
+
+
+2 main approaches:
+
+    LBYL = Look Before You Leap:
+        e.g.
+           -Test if an object is not null before trying to use it
+
+    EAFP = Easier To Ask for Forgiveness than Permission:
+        e.g.
+           -Perform an operation and respond with an Exception if something goes wrong
+
+

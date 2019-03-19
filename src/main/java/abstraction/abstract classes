@@ -1,0 +1,8 @@
+An abstract class is a class which cannot be instantiated.
+An abstract class is used by creating an inheriting subclass that can be instantiated.
+
+An abstract class does a few things for the inheriting subclass:
+
+- Define methods which can be used by the inheriting subclass.
+- Define abstract methods which the inheriting subclass must implement.
+- Provide a common interface which allows the subclass to be interchanged with all other subclasses.
