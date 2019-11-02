@@ -7,8 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
     // Create a simple interface that allows an object to be saved to some sort of storage medium.
-    // The exact type of medium in now known to the interface (nor to the classes that implement it).
-    // The interface will just specify 2 methods, 1 no return an ArrayList of the values to be saved
+    // The exact type of medium in not known to the interface (nor to the classes that implement it).
+    // The interface will just specify 2 methods, 1 to return an ArrayList of the values to be saved
     // and 1 to populate the object's fields from an ArrayList.
     //
     // Create some sample classes that implement tour saveable interface.

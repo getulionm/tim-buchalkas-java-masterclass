@@ -26,7 +26,6 @@ public class Switch {
             default:
                 System.out.println("value not found");
                 break;
-
         }
     }
 }
